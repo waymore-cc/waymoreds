@@ -38,8 +38,6 @@ const Sidebar = () => {
       <ul
         style={{
           listStyle: "none",
-          position: "fixed",
-          width: "calc(20% - 1.45rem)",
         }}
       >
         {edges.map(({ node: post }) =>

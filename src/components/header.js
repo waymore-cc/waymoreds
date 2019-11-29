@@ -1,5 +1,6 @@
 import Logo from "./logo.js"
 import React from "react"
+import GatsbyLink from "./gatsbylink"
 
 const Header = () => {
   return (
@@ -13,6 +14,12 @@ const Header = () => {
       }}
     >
       <Logo key="file.node.id" />
+      <div
+        className="menu"
+        style={{ marginLeft: "auto", alignSelf: "center", padding: "0 2rem" }}
+      >
+        <GatsbyLink href={"/sb/"}>Storybook Docs</GatsbyLink>
+      </div>
     </header>
   )
 }
